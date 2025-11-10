@@ -1,0 +1,58 @@
+#box{
+    color: rgb(247, 14, 25);
+    border: 1px solid rgb(179, 155, 91);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 100px;
+    background: rgba(224, 240, 8, 0.562);
+
+/*
+    animation: myslide;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+*/
+/*animation: 5s linear 0s infinite running mycolorchange;*/
+animation: 7s linear 0s infinite running  mycolorchange  ;
+}
+#box:hover{
+
+}    
+#box:active{
+
+}
+@keyframes myslide{
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+}
+@keyframes myrotate{
+    /*100%{transform: rotateX(360deg);}
+    100%{transform: rotateX(360deg);}*/
+
+    100%{transform:rotateY(360deg);}
+}
+@keyframes myopactity{
+    0%{opacity: 0.1;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}   
+@keyframes myscale{
+    0%{transform: scale(0.5);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(1);}
+}
+@keyframes mycolorchange{
+    0%{background-color: red;}
+    25%{background-color: blue;}
+    50%{background-color: green;}
+    75%{background-color: yellow;}
+    100%{background-color: red;}
+    125%{background-color: purple;}
+    150%{background-color: orange;}
+    175%{background-color: pink;}
+    200%{background-color: rgb(255, 0, 0);}
+    
+}   

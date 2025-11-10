@@ -1,0 +1,15 @@
+#box{
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+p{
+    font-size: 18px;
+    color: rgb(2, 2, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

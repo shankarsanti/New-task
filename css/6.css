@@ -1,0 +1,17 @@
+.box-model{
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 30px;
+    width: 30px;
+    height: 3opx;
+    margin-left: 20px;
+    text-align: center;
+    margin-left: 15px;
+    float:right;
+    
+}
+<p>{
+    font-size: 18px;
+    color: rgb(2, 2, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

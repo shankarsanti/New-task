@@ -1,0 +1,27 @@
+body{
+    background-image:url("/vk.jpg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: #fa0505;
+    text-align: center;
+    padding: 20px;
+    border: wheat;
+    border-color: blueviolet;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    line-gap-override: calc(dotted);
+    border-radius-color:rgb(91, 91, 145);
+    border-style: solid;
+}
+p{
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-right-style: double;
+    border-color: blueviolet;
+    background: linear-gradient( red,yellow);
+    border-style: round;
+}

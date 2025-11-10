@@ -1,0 +1,26 @@
+#box1{
+    border: 2px solid black;
+    box-shadow: 5px 10px 8px grey;  
+    border: 150px;
+    width: 200px;
+    height: 200px;
+    font-size: 180px;
+    text-align: center;
+    border-color: aquamarine;
+    background: rgb(226, 177, 177);
+
+    transform: translateX(50px);
+    transform: translateZ(50px);
+    transform: matrix(10px);
+    transform: translateY(50px);
+    transform: scaleX(2);
+    transform: scale3d(30);
+    transform: translate3d(10px);
+    transform: translate(12px);
+    transition: steps();
+    transform: skew(45deg);
+    
+
+    transform: matrix(1,0,0,0,0,5,);
+
+}
