@@ -12,4 +12,8 @@
             } else {
                 alert('Please enter a task.');
             }
+            let key=task;
+            let value=task;
+            localStorage.setItem(key, value);
+            console.log(`Data stored: { ${key}: localstorage.getItem: ${value} }`);
         }

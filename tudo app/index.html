@@ -18,7 +18,17 @@
             <!-- Tasks will be added here -->
         </ul>
     </div>
-    
-   <script src="script.js"></script>         
+   <script src="script.js"></script> 
+   <script>
+        let allKeys = Object.keys(localStorage);
+console.log(allKeys); // An array of all keys in localStorage
+allKeys.forEach(function(key) {
+    let value = localStorage.getItem(key);
+    let taskList = document.getElementById('tasklist');
+    let li = document.createElement('li');
+    li.textContent = value;
+    taskList.appendChild(li);
+});
+    </script>        
 </body>
 </html>
