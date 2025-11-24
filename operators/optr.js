@@ -22,3 +22,16 @@ console.log("a > 2:", a > 2);
 console.log("b < 5:", b < 5);
 console.log("a >= 27:", a >= 27);
 console.log("b <= 4:", b <= 4);
+
+console.log("a && (b > 5):", a && (b > 5));
+console.log("a || (b < 5):", a || (b < 5));
+console.log("!(a > 10):", !(a > 10));
+console.log("a ||(b < 11):", a || (b < 11));
+
+cond1 = b=10;
+cond2 = 7 < a;
+console.log("cond1:", cond1);
+console.log("cond2:", cond2);
+console.log("cond1 || cond2:", cond1 || cond2);
+console.log("cond1 && cond2:", cond1 && cond2); 
+console.log("!cond2:", !(cond2));
