@@ -61,7 +61,8 @@ ul{
 	display:flex;gap:8px;
 	flex-wrap:wrap
 }
-.chip{background:#eef7f6;color:var(--accent);
+.chip{background:#eef7f6;
+	  color:var(--accent);
 	padding:6px 10px;
 	border-radius:999px;
 	font-weight:600;
