@@ -35,3 +35,11 @@ console.log("cond2:", cond2);
 console.log("cond1 || cond2:", cond1 || cond2);
 console.log("cond1 && cond2:", cond1 && cond2); 
 console.log("!cond2:", !(cond2));
+
+console.log("Condition ? 'Yes' : 'No' :", (a > 10) ? 'Yes' : 'No');
+console.log("Condition ? 'Yes' : 'No' :", (b < 15) ? 'Yes' : 'No'); 
+
+console.log("Condition :", (a > 10));
+console.log("Condition :", (b < 15));
+
+
