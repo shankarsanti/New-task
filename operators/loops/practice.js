@@ -11,7 +11,7 @@ for (num =0; num <= 100; num++){
     if (num %2 !==0){
         console.log("num", num);
     }  
-    total number= numbers + num;
+    totalnumber= numbers + num;
 }console.log("the total odd numbers", numbers);
 
 
