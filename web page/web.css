@@ -36,7 +36,8 @@ body{
 	padding-bottom:14px;
 	}
 .card-header h1{
-	font-family: 'Georgia', serif;
+	font-family: 'Georgia',
+		serif;
 	font-size:26px;
 	margin:0;
 	color:var(--accent);
