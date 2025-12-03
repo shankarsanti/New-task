@@ -1,0 +1,25 @@
+﻿/* A4 print stylesheet with watermark logo */
+@page { size: A4; margin: 20mm; }
+body{ background: #f0f0f0; font-family: Calibri, 'Segoe UI', Tahoma, Arial; }
+.page{ width: 210mm; height: 297mm; margin: 10mm auto; background: #fff; box-shadow: 0 6px 18px rgba(0,0,0,0.08); position: relative; overflow: hidden }
+.header{ display:flex; align-items:center; padding:18px 28px; border-bottom:1px solid #ddd }
+.logo{ width:120px; height:auto }
+.header h1{ flex:1; text-align:center; color:#0f4b4a; font-size:20px; margin:0 }
+.content{ padding:22px 36px; color:#222 }
+.content h2{ color:#bf1e2e; margin-top:18px }
+.content ul{ margin-left:18px }
+.footer{ text-align:center; font-size:12px; color:#666; padding:10px }
+
+/* watermark using the same logo */
+.page::before{ content:''; position:absolute; inset:60px; background-image:url('https://nighan2.com/images/Logo.png'); background-repeat:no-repeat; background-position:center; background-size:300px; opacity:0.08; pointer-events:none }
+
+.signatures{ display:flex; justify-content:space-between; margin-top:28px; padding:0 36px }
+.sig{ width:45%; text-align:left }
+.sig.right{ text-align:right }
+
+/* print adjustments */
+@media print{
+  body{ background:#fff }
+  .page{ box-shadow:none; margin:0; page-break-after:always }
+  .page::before{ opacity:0.06 }
+}
