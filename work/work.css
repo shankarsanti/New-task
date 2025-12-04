@@ -1,5 +1,8 @@
 ﻿/* A4 print stylesheet with watermark logo */
-@page { size: A4; margin: 20mm; }
+@page {
+  size: A4;
+  margin: 20mm; 
+}
 body{ background: #f0f0f0; font-family: Calibri, 'Segoe UI', Tahoma, Arial; }
 .page{ width: 210mm; height: 297mm; margin: 10mm auto; background: #fff; box-shadow: 0 6px 18px rgba(0,0,0,0.08); position: relative; overflow: hidden }
 .header{ display:flex; align-items:center; padding:18px 28px; border-bottom:1px solid #ddd }
