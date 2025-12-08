@@ -18,7 +18,11 @@ body{
   position: relative;
   overflow: hidden 
 }
-.header{ display:flex; align-items:center; padding:18px 28px; border-bottom:1px solid #ddd }
+.header{ display:flex; 
+        align-items:center; 
+        padding:18px 28px;
+        border-bottom:1px solid #ddd
+       }
 .logo{ width:120px; height:auto }
 .header h1{ flex:1; text-align:center; color:#0f4b4a; font-size:20px; margin:0 }
 .content{ padding:22px 36px; color:#222 }
