@@ -33,7 +33,10 @@ body{
   font-size:20px;
   margin:0 
 }
-.content{ padding:22px 36px; color:#222 }
+.content{ 
+  padding:22px 36px; 
+  color:#222
+}
 .content h2{ color:#bf1e2e; margin-top:18px }
 .content ul{ margin-left:18px }
 .footer{ text-align:center; font-size:12px; color:#666; padding:10px }
