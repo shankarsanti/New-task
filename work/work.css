@@ -41,7 +41,9 @@ body{
   color:#bf1e2e; 
   margin-top:18px 
 }
-.content ul{ margin-left:18px }
+.content ul{ 
+  margin-left:18px
+}
 .footer{ text-align:center; font-size:12px; color:#666; padding:10px }
 
 /* watermark using the same logo */
