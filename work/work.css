@@ -44,7 +44,11 @@ body{
 .content ul{ 
   margin-left:18px
 }
-.footer{ text-align:center; font-size:12px; color:#666; padding:10px }
+.footer{
+  text-align:center; 
+  font-size:12px; 
+  color:#666; padding:10px
+}
 
 /* watermark using the same logo */
 .page::before{ content:''; position:absolute; inset:60px; background-image:url('https://nighan2.com/images/Logo.png'); background-repeat:no-repeat; background-position:center; background-size:300px; opacity:0.08; pointer-events:none }
