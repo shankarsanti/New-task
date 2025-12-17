@@ -51,7 +51,10 @@ body{
 }
 
 /* watermark using the same logo */
-.page::before{ content:''; position:absolute; inset:60px; background-image:url('https://nighan2.com/images/Logo.png'); background-repeat:no-repeat; background-position:center; background-size:300px; opacity:0.08; pointer-events:none }
+.page::before{
+  content:'';
+  position:absolute;
+  inset:60px; background-image:url('https://nighan2.com/images/Logo.png'); background-repeat:no-repeat; background-position:center; background-size:300px; opacity:0.08; pointer-events:none }
 
 .signatures{ display:flex; justify-content:space-between; margin-top:28px; padding:0 36px }
 .sig{ width:45%; text-align:left }
